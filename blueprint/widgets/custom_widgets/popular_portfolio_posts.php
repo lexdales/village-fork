@@ -1,130 +1,50 @@
-<?php 
-
-class PP_Widget extends WP_Widget {
-
-function PP_Widget() {
-	
-	$widget_ops = array ('description' => 'Display popular portfolio items with thumbnails');
-	$control_ops = array( 'width' => 300, 'height' => 400);
-	
-	parent::WP_Widget(false, 'Village - Popular Portfolio Items', $widget_ops, $control_ops);
-	
-}
-
-function update($new_instance, $old_instance) {
-		
-	$instance = $old_instance;
-
-	$instance['title'] =  $new_instance['title'];
-	$instance['limiter'] =  $new_instance['limiter'];
-	
-	return $instance;
-
-}
-
-function form($instance) {
-
-$defaults = array( 'title' => 'Popular Portfolio Items', 'limiter' => '3');
-                       
-$instance = wp_parse_args( (array) $instance, $defaults ); 
-
-?>
-
-<div style="padding-bottom: 15px;">
-
-<h3>Title</h3>
-
-<input type="text" style="width: 100%;" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" value="<?php echo $instance['title'] ?>" />
-
-<h3>Number of Items</h3>
-
-<input type="text" style="width: 100%;" id="<?php echo $this->get_field_id('limiter'); ?>" name="<?php echo $this->get_field_name('limiter'); ?>" value="<?php echo $instance['limiter']; ?>" />
-
-</div>
-
 <?php
-		
+class LPWT_Widget extends WP_Widget {
+  public function __construct() {
+    parent::__construct(
+      'lpwt_widget',
+      __('Latest Portfolio Posts','village'),
+      ['description'=>__('Shows latest portfolio items','village')]
+    );
+  }
+  public function update($new,$old){
+    $inst = $old;
+    $inst['title']   = isset($new['title']) ? sanitize_text_field($new['title']) : '';
+    $inst['limiter'] = isset($new['limiter']) ? intval($new['limiter']) : 6;
+    return $inst;
+  }
+  public function form($inst){
+    $inst = wp_parse_args((array)$inst, ['title'=>'Latest Work','limiter'=>6]); ?>
+    <p><label for="<?= esc_attr($this->get_field_id('title')); ?>"><?php esc_html_e('Title','village'); ?></label>
+    <input class="widefat" id="<?= esc_attr($this->get_field_id('title')); ?>" name="<?= esc_attr($this->get_field_name('title')); ?>" value="<?= esc_attr($inst['title']); ?>"></p>
+    <p><label for="<?= esc_attr($this->get_field_id('limiter')); ?>"><?php esc_html_e('Number of items','village'); ?></label>
+    <input class="widefat" type="number" min="1" step="1" id="<?= esc_attr($this->get_field_id('limiter')); ?>" name="<?= esc_attr($this->get_field_name('limiter')); ?>" value="<?= esc_attr($inst['limiter']); ?>"></p>
+    <?php
+  }
+  public function widget($args,$inst){
+    echo $args['before_widget'];
+    if(!empty($inst['title'])) echo $args['before_title'].esc_html($inst['title']).$args['after_title'];
+    $count = isset($inst['limiter']) ? intval($inst['limiter']) : 6;
+
+    // adjust post_type/taxonomy to whatever “portfolio” is in this theme:
+    $q = new WP_Query([
+  'post_type' => 'portfolio',
+  'posts_per_page' => $count,
+  'orderby' => 'comment_count',
+  'ignore_sticky_posts' => true,
+]);
+    if($q->have_posts()){
+      echo '<div class="widget latest_portfolio">';
+      while($q->have_posts()){ $q->the_post();
+        $thumb = get_the_post_thumbnail_url(get_the_ID(),'sidebar_thumb');
+        echo '<div class="posts_item">';
+        if($thumb) echo '<a href="'.esc_url(get_permalink()).'"><img src="'.esc_url($thumb).'" alt=""></a>';
+        echo '<a class="widget_posts_title" href="'.esc_url(get_permalink()).'">'.get_the_title().'</a>';
+        echo '</div>';
+      }
+      echo '</div>';
+    }
+    wp_reset_postdata();
+    echo $args['after_widget'];
+  }
 }
-	
-function widget($args, $instance) {
-
-extract($args);
-
-?>
-
-<div class="widget latest_posts">
-
-<h2><?php echo $instance['title']; ?></h2>
-
-<?php 
-
-$post_count = $instance['limiter'];
-
-query_posts("posts_per_page=$post_count&post_type=portfolio&orderby=comment_count");
-
-if (have_posts()) : while (have_posts()) : the_post();
-
-$image_id = get_post_thumbnail_id();  
-$image_url = wp_get_attachment_image_src($image_id, 'sidebar_thumb');
-
-?>
-
-<div class="posts_item">
-
-<div class="widget_posts_item_image">
-
-<?php 
-
-if (has_post_thumbnail()) {
-
-?>
-
-<a href="<?php the_permalink(); ?>"><img src="<?php echo $image_url[0]; ?>" alt="" /></a>
-
-<?php
-
-} 
-
-?>
-
-</div>
-
-<div class="widget_posts_info">
-
-<a class="widget_posts_title" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-
-<span class="widget_posts_info_meta">
-
-<ul>
-
-<li class="widget_posts_date"><?php the_time('M j, Y'); ?></li>
-<li><?php comments_popup_link(__("No Comments","village"), __("One Comment","village"), '% ' . __("Comments","village"), '', __("Comments Closed","village")) ?></li>
-
-</ul>
-
-</span>
-
-</div>
-
-<div class="clear"></div>
-
-</div>
-
-<?php
-
-endwhile; endif;
-
-wp_reset_query();
-
-?>
-
-</div>
-
-<?php
-
-	}
-}
-
-register_widget('PP_Widget');
-
-?>
