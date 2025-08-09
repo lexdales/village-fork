@@ -1,0 +1,53 @@
+#gallery_manager {
+	padding: 20px 10px;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+#gallery_manager a#upload_button {
+	color: #fff;
+	background-color: #fff;
+	color: #555;
+	padding: 10px 8px;
+	margin: 0px;
+	display: block;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	text-decoration: none;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+#wpwrap #gallery_manager a.button {
+	text-align: center;
+	background-position: left bottom;
+}
+
+#gallery_manager ul li{
+	list-style-type: none;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 5px;
+	position: relative;
+}
+
+#gallery_manager ul li img {
+	border: 8px solid #ddd;
+}
+
+#gallery_manager .clear {
+	clear: both;
+}
+
+#gallery_manager ul li span {
+	position: absolute;
+	width: 144px;
+	padding: 8px;
+	color: #fff;
+	background: #222;
+	background: rgba(0,0,0,0.6);
+	z-index: 3;
+	left: 8px;
+	bottom: 12px;
+	font-size: 13px;
+}

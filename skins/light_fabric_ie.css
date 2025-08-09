@@ -1,0 +1,29 @@
+h1.post_title, h1.title {
+	background: #888;
+}
+
+#header {
+	border-right: 5px solid #ccc;
+}
+
+.blog_post_meta {
+	background: #888;
+}
+
+.classic_desc {
+	color: #fff;
+}
+
+#show_hide {
+	border: 5px solid #ccc;
+}
+
+#search {
+	background-color: #999;
+}
+
+#contact_form input[type=text] {
+
+	color: #666;
+
+}

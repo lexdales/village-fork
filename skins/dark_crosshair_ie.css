@@ -1,0 +1,18 @@
+#header {
+	border-right: 5px solid #333;
+}
+
+#search {
+	background: #333;
+}
+
+#contact_form input[type=text] {
+
+	color: #888;
+	background: #444;
+	
+}
+
+#contact_form textarea {
+	background: #444;
+}

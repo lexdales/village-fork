@@ -1,0 +1,29 @@
+h1.post_title {
+background: #222;
+padding-left: 30px;
+padding-bottom: 35px;
+
+}
+
+#contact_form textarea {
+
+padding-bottom: 20px;
+margin-bottom: 20px;
+
+}
+
+#contact_form input[type=text] {
+
+	color: #888;
+	background: #444;
+	
+}
+
+#contact_form textarea {
+	background: #444;
+}
+
+#contact_form [type=submit] {
+	background: #444;
+	color: #999;
+}

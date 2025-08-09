@@ -1,0 +1,654 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Village\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-02 19:48+0100\n"
+"PO-Revision-Date: 2012-05-02 19:48+0100\n"
+"Last-Translator: George <admin@themeprovince.com>\n"
+"Language-Team: None <None>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED KINGDOM\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:13
+msgid "404 Error"
+msgstr ""
+
+#: 404.php:31
+msgid "This page cannot be found or it is temporarily unavailable."
+msgstr ""
+
+#: archive.php:60
+#: author.php:55
+#: blog.php:57
+#: category.php:53
+msgid "Newer Posts"
+msgstr ""
+
+#: archive.php:64
+#: author.php:59
+#: blog.php:61
+#: category.php:57
+msgid "No Newer Posts"
+msgstr ""
+
+#: archive.php:78
+#: author.php:73
+#: blog.php:75
+#: category.php:71
+msgid "Older Posts"
+msgstr ""
+
+#: archive.php:82
+#: author.php:77
+#: blog.php:79
+#: category.php:75
+msgid "No Older Posts"
+msgstr ""
+
+#: author.php:15
+msgid "Author"
+msgstr ""
+
+#: comments.php:20
+msgid "No Responses To"
+msgstr ""
+
+#: comments.php:20
+msgid "One Response To"
+msgstr ""
+
+#: comments.php:20
+msgid "Responses To"
+msgstr ""
+
+#: comments.php:39
+msgid "Comments Are Closed"
+msgstr ""
+
+#: comments.php:48
+msgid "Leave A Reply"
+msgstr ""
+
+#: comments.php:48
+msgid "Leave A Reply To"
+msgstr ""
+
+#: comments.php:63
+msgid "Name"
+msgstr ""
+
+#: comments.php:63
+#: comments.php:66
+msgid "required"
+msgstr ""
+
+#: comments.php:66
+msgid "Email"
+msgstr ""
+
+#: comments.php:69
+msgid "Website"
+msgstr ""
+
+#: comments.php:77
+msgid "Submit Comment"
+msgstr ""
+
+#: contact.php:45
+msgid "Processing…"
+msgstr ""
+
+#: contact.php:51
+#: header.php:95
+msgid "Your Name"
+msgstr ""
+
+#: contact.php:53
+#: header.php:96
+msgid "Your Email"
+msgstr ""
+
+#: contact.php:55
+#: header.php:97
+msgid "Your Phone"
+msgstr ""
+
+#: contact.php:57
+msgid "Your Website"
+msgstr ""
+
+#: contact.php:61
+msgid "Submit Message"
+msgstr ""
+
+#: functions.php:12
+msgid "Lightbox Link (For gallery use only)"
+msgstr ""
+
+#: functions.php:14
+msgid "Enter a external link for this gallery item. Leave blank if not needed."
+msgstr ""
+
+#: functions.php:15
+msgid "External Link (For gallery use only)"
+msgstr ""
+
+#: functions.php:17
+msgid "Enter a lightbox link for this gallery item. Leave blank if not needed."
+msgstr ""
+
+#: header.php:98
+msgid "Your Message"
+msgstr ""
+
+#: header.php:229
+msgid "Right Click Is Disabled"
+msgstr ""
+
+#: header.php:299
+msgid "Search…"
+msgstr ""
+
+#: header.php:299
+msgid "Search..."
+msgstr ""
+
+#: loop.php:42
+msgid "No Comments"
+msgstr ""
+
+#: loop.php:42
+msgid "One Comment"
+msgstr ""
+
+#: loop.php:42
+msgid "Comments"
+msgstr ""
+
+#: loop.php:42
+msgid "Comments Closed"
+msgstr ""
+
+#: options.php:31
+msgid "Dark Noise"
+msgstr ""
+
+#: options.php:31
+msgid "Dark Fabric"
+msgstr ""
+
+#: options.php:31
+msgid "Dark Crosshair"
+msgstr ""
+
+#: options.php:31
+msgid "Stone"
+msgstr ""
+
+#: options.php:31
+msgid "Light Fabric"
+msgstr ""
+
+#: options.php:73
+msgid "General"
+msgstr ""
+
+#: options.php:76
+msgid "Skin"
+msgstr ""
+
+#: options.php:77
+msgid "Select the look of your site. Light or Dark"
+msgstr ""
+
+#: options.php:83
+msgid "Logo"
+msgstr ""
+
+#: options.php:84
+msgid "Upload your logo. Click Use This Image on the image you want as your logo."
+msgstr ""
+
+#: options.php:89
+msgid "Favicon"
+msgstr ""
+
+#: options.php:90
+msgid "Upload your favicon. Click Use This Image on the image you want as your favicon."
+msgstr ""
+
+#: options.php:102
+#: options.php:105
+msgid "Social Icons"
+msgstr ""
+
+#: options.php:106
+msgid "Check the social icons you want to display."
+msgstr ""
+
+#: options.php:119
+msgid "Facebook URL"
+msgstr ""
+
+#: options.php:125
+msgid "Twitter URL"
+msgstr ""
+
+#: options.php:131
+msgid "Flickr URL"
+msgstr ""
+
+#: options.php:137
+msgid "Behance URL"
+msgstr ""
+
+#: options.php:143
+msgid "Email URL"
+msgstr ""
+
+#: options.php:149
+msgid "Vimeo URL"
+msgstr ""
+
+#: options.php:155
+msgid "Youtube URL"
+msgstr ""
+
+#: options.php:161
+msgid "AddThis URL"
+msgstr ""
+
+#: options.php:167
+msgid "Aim URL"
+msgstr ""
+
+#: options.php:173
+msgid "Apple URL"
+msgstr ""
+
+#: options.php:179
+msgid "Blogger URL"
+msgstr ""
+
+#: options.php:185
+msgid "DeviantArt URL"
+msgstr ""
+
+#: options.php:191
+msgid "Dribbble URL"
+msgstr ""
+
+#: options.php:197
+msgid "Myspace URL"
+msgstr ""
+
+#: options.php:203
+msgid "Qik URL"
+msgstr ""
+
+#: options.php:209
+msgid "Yahoo URL"
+msgstr ""
+
+#: options.php:215
+msgid "LinkedIn URL"
+msgstr ""
+
+#: options.php:221
+msgid "Skype URL"
+msgstr ""
+
+#: options.php:227
+msgid "Portfolio"
+msgstr ""
+
+#: options.php:244
+msgid "Backgrounds"
+msgstr ""
+
+#: options.php:268
+msgid "Contact"
+msgstr ""
+
+#: options.php:271
+msgid "Admin Email"
+msgstr ""
+
+#: options.php:272
+msgid "The email that messages from the contact form are sent too."
+msgstr ""
+
+#: options.php:277
+msgid "Footer"
+msgstr ""
+
+#: options.php:280
+msgid "Credits"
+msgstr ""
+
+#: options.php:281
+msgid "The text that appears in the footer."
+msgstr ""
+
+#: options.php:286
+msgid "Fonts"
+msgstr ""
+
+#: options.php:294
+msgid "Menu Font"
+msgstr ""
+
+#: options.php:300
+msgid "Submenu Font"
+msgstr ""
+
+#: options.php:306
+msgid "Main Body Font"
+msgstr ""
+
+#: options.php:312
+msgid "Heading Font"
+msgstr ""
+
+#: options.php:318
+msgid "SEO"
+msgstr ""
+
+#: options.php:321
+msgid "Enable SEO"
+msgstr ""
+
+#: options.php:328
+msgid "Help"
+msgstr ""
+
+#: options.php:331
+msgid "Documentation"
+msgstr ""
+
+#: options.php:332
+msgid "The documentation for this theme is located in the documentation folder you receive from Themeforest. It will help you if you are stuck so please take a look at it before you post in the support forum."
+msgstr ""
+
+#: options.php:335
+msgid "Support Forum"
+msgstr ""
+
+#: options.php:336
+msgid ""
+"If you are having any problems, have a question or need to report a bug with this theme then please post in our support forum. \n"
+"\t\t\t\t\t\tIt will increase the quality of support you receive from us. You will need to post your support requests on our support forum from now on. <b>Note that all discussions are hidden until you login.</b> Sign up is quick and easy.\n"
+"\t\t\t\t\t\t<br><br>\n"
+"\t\t\t\t\t\tTo access the forum you will need your Item Purchase Code. Need help finding your item purchase code? <br><br>\n"
+"\n"
+"\t\t\t\t\t\t<a target=\"_blank\" href=\"http://cl.ly/451W2o2h1M0V2n290U0p/\">Click to see where you find your purchase code.</a>\n"
+"\n"
+"\t\t\t\t\t\t<br><br><b>The support forum is located here: <a href=\"http://support.themeprovince.com/\">http://support.themeprovince.com/</a></b>"
+msgstr ""
+
+#: options.php:346
+msgid "Video Tutorials"
+msgstr ""
+
+#: options.php:347
+msgid "We believe the best way to learn is by video tutorials, each of our themes will eventually have these. <br><br><b><a href=\"http://vimeo.com/ThemeProvince\" target=\"_blank\">Click here to visit our Vimeo channel!</a></b>"
+msgstr ""
+
+#: portfolio-one-column.php:183
+#: portfolio-three-column.php:183
+#: portfolio-two-column.php:182
+msgid "Visit Site"
+msgstr ""
+
+#: portfolio-one-column.php:189
+#: portfolio-one-column.php:203
+#: portfolio-three-column.php:189
+#: portfolio-three-column.php:203
+#: portfolio-two-column.php:188
+#: portfolio-two-column.php:202
+msgid "Read More"
+msgstr ""
+
+#: portfolio-one-column.php:197
+#: portfolio-three-column.php:197
+#: portfolio-two-column.php:196
+msgid "Project Offline"
+msgstr ""
+
+#: search.php:16
+msgid "Search Results"
+msgstr ""
+
+#: search.php:16
+msgid "No Search Results"
+msgstr ""
+
+#: admin/options-framework.php:160
+#: admin/options-framework.php:359
+msgid "Theme Options"
+msgstr ""
+
+#: admin/options-framework.php:227
+msgid "Save Options"
+msgstr ""
+
+#: admin/options-framework.php:228
+msgid "Restore Defaults"
+msgstr ""
+
+#: admin/options-framework.php:228
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: admin/options-framework.php:260
+msgid "Default options restored."
+msgstr ""
+
+#: admin/options-framework.php:301
+msgid "Options saved."
+msgstr ""
+
+#: admin/options-medialibrary-uploader.php:26
+msgid "Options Framework Internal Container"
+msgstr ""
+
+#: admin/options-medialibrary-uploader.php:128
+#: blueprint/meta_boxes/meta_boxes.php:1171
+msgid "Upload"
+msgstr ""
+
+#: admin/options-medialibrary-uploader.php:151
+msgid "View File"
+msgstr ""
+
+#: admin/options-medialibrary-uploader.php:288
+msgid "Gallery"
+msgstr ""
+
+#: admin/options-medialibrary-uploader.php:288
+msgid "Previously Uploaded"
+msgstr ""
+
+#: blueprint/comments/comments.php:36
+msgid "(Edit)"
+msgstr ""
+
+#: blueprint/contact/contact.php:18
+msgid "Website Enquiry"
+msgstr ""
+
+#: blueprint/contact/contact.php:24
+msgid "Your message has been sent successfully."
+msgstr ""
+
+#: blueprint/meta_boxes/meta_boxes.php:1169
+msgid "Edit Gallery"
+msgstr ""
+
+#: blueprint/meta_boxes/meta_boxes.php:1203
+msgid "Give the gallery a title and click Publish to start uploading."
+msgstr ""
+
+#: blueprint/meta_boxes/meta_boxes.php:1211
+msgid "Live Preview"
+msgstr ""
+
+#: blueprint/post_types/post_types.php:22
+msgid "Add A New "
+msgstr ""
+
+#: blueprint/post_types/post_types.php:23
+#: blueprint/post_types/post_types.php:59
+msgid "Edit "
+msgstr ""
+
+#: blueprint/post_types/post_types.php:24
+#: blueprint/post_types/post_types.php:62
+msgid "New "
+msgstr ""
+
+#: blueprint/post_types/post_types.php:25
+msgid "View "
+msgstr ""
+
+#: blueprint/post_types/post_types.php:26
+#: blueprint/post_types/post_types.php:54
+msgid "Search "
+msgstr ""
+
+#: blueprint/post_types/post_types.php:27
+#: blueprint/post_types/post_types.php:28
+msgid "No "
+msgstr ""
+
+#: blueprint/post_types/post_types.php:55
+msgid "Popular "
+msgstr ""
+
+#: blueprint/post_types/post_types.php:56
+msgid "All "
+msgstr ""
+
+#: blueprint/post_types/post_types.php:60
+msgid "Update "
+msgstr ""
+
+#: blueprint/post_types/post_types.php:61
+msgid "Add New "
+msgstr ""
+
+#: blueprint/post_types/post_types.php:63
+msgid "Separate "
+msgstr ""
+
+#: blueprint/post_types/post_types.php:64
+msgid "Add or remove "
+msgstr ""
+
+#: blueprint/post_types/post_types.php:65
+msgid "Choose from the most used "
+msgstr ""
+
+#: blueprint/shortcodes/p_shortcodes.php:43
+msgid "Pullquote Left"
+msgstr ""
+
+#: blueprint/shortcodes/p_shortcodes.php:51
+msgid "Pullquote Right"
+msgstr ""
+
+#: blueprint/shortcodes/p_shortcodes.php:59
+msgid "Two Columns"
+msgstr ""
+
+#: blueprint/shortcodes/p_shortcodes.php:67
+msgid "Three Columns"
+msgstr ""
+
+#: blueprint/shortcodes/p_shortcodes.php:75
+msgid "Four Columns"
+msgstr ""
+
+#: blueprint/shortcodes/p_shortcodes.php:83
+msgid "Five Columns"
+msgstr ""
+
+#: blueprint/shortcodes/p_shortcodes.php:91
+msgid "Two Third Column Left"
+msgstr ""
+
+#: blueprint/shortcodes/p_shortcodes.php:99
+msgid "Two Third Column Right"
+msgstr ""
+
+#: blueprint/shortcodes/p_shortcodes.php:107
+msgid "Dropcap"
+msgstr ""
+
+#: blueprint/shortcodes/p_shortcodes.php:124
+msgid "Lightbox"
+msgstr ""
+
+#: blueprint/shortcodes/p_shortcodes.php:153
+msgid "Highlight"
+msgstr ""
+
+#: blueprint/shortcodes/p_shortcodes.php:173
+msgid "Alert Box"
+msgstr ""
+
+#: blueprint/shortcodes/p_shortcodes.php:181
+msgid "Download Box"
+msgstr ""
+
+#: blueprint/shortcodes/p_shortcodes.php:189
+msgid "Success Box"
+msgstr ""
+
+#: blueprint/shortcodes/p_shortcodes.php:197
+msgid "Error Box"
+msgstr ""
+
+#: blueprint/shortcodes/p_shortcodes.php:205
+msgid "Bold Text"
+msgstr ""
+
+#: blueprint/shortcodes/p_shortcodes.php:213
+msgid "Italic Text"
+msgstr ""
+
+#: blueprint/shortcodes/p_shortcodes.php:221
+msgid "Colored Text"
+msgstr ""
+
+#: blueprint/shortcodes/p_shortcodes.php:234
+msgid "Button"
+msgstr ""
+
+#: blueprint/shortcodes/p_shortcodes.php:259
+msgid "Vimeo Video"
+msgstr ""
+
+#: blueprint/shortcodes/p_shortcodes.php:284
+msgid "Youtube Video"
+msgstr ""
+
+#: blueprint/shortcodes/p_shortcodes.php:309
+msgid "Self Hosted Video"
+msgstr ""
+
+#: blueprint/shortcodes/tinymce/shortcode_panel.php:27
+msgid "You are not allowed to be here"
+msgstr ""
+
+#: blueprint/sidebars/sidebars.php:5
+msgid "Default Sidebar"
+msgstr ""
+

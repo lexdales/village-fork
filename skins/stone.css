@@ -1,0 +1,224 @@
+body {
+	color: #000;
+}
+
+a {
+	color: #444;
+}
+
+span.widget_posts_info_meta ul li a {
+	color: #777;
+}
+
+#header, #content, #show_hide {
+	background: url(../images/bg_adventure_light.png);
+}
+
+#header {
+	border-right: 5px solid rgba(0,0,0,0.1);
+}
+
+#menu ul li a {
+	color: #777;
+}
+	#menu ul li a:hover {
+		color: #444;
+	}
+	#menu ul li ul li a {
+		color: #999;
+	}
+	#menu ul li ul li a:hover {
+		color: #fff;
+	}	
+	#menu ul li.current-menu-item a {
+		color: #444;
+	}
+	#menu ul li ul li.current-menu-item a {
+		color: #fff;
+	}
+	
+h1,h2,h3,h4,h5,h6 {
+	color: #555;
+}	
+
+h1.title {
+	background: rgba(0,0,0,0.2);
+	border-bottom: 5px solid rgba(0,0,0,0.04);
+	color: #fff;
+}	
+
+h1.post_title {
+	background: rgba(0,0,0,0.2);
+	border-bottom: 5px solid rgba(0,0,0,0.04);
+	color: #fff;
+}
+
+#content_wrap {
+	color: #444;
+	text-shadow: 0px 1px 1px #eee;
+}
+
+.posts_item, #comments h5 {
+	border-bottom: 1px dashed #999;
+}
+
+.blog_post {
+	border-bottom: 1px dashed #333;
+}
+
+.blog_post_meta {
+	background: rgba(0,0,0,0.2);
+	text-shadow: 0px 1px 1px #999;	
+}
+
+#respond {
+	border-top: 1px dashed #999;
+}
+
+#comments h5 {
+	border-top: 1px dashed #999;
+}
+
+.blog_post {
+	border-bottom: 1px dashed #999;
+}
+
+#post_links a, .more-link {
+	color: #333;
+	font-size: 12px;
+}
+
+#post_links .no_post {
+	padding: 4px 0px;
+	color: #666;
+	font-size: 11px;
+}
+
+.classic_desc {
+	background: rgba(0,0,0,0.05);
+}
+
+#comments #submit {
+
+background: rgba(0,0,0,0.2);
+border: 1px solid #999;
+color: #fff;
+
+}
+
+#comments #author, #comments #email, #comments #url {
+
+background: rgba(255,255,255,0.9);
+border: 1px solid #ccc;
+color: #999;
+
+}
+
+#comments #comment {
+
+background: rgba(255,255,255,0.9);
+border: 1px solid #ccc;
+color: #777;
+
+}
+
+.comment_gravatar {
+
+background: rgba(0,0,0,0.1);
+
+}
+
+.comment_right a {
+	color: #444;
+}
+
+div.gallery_item_info {
+
+text-shadow: none;
+color: #fff;
+font-family: "Droid Sans";
+font-size: 9px;
+text-transform: uppercase;
+letter-spacing: 0.15em;
+
+}
+
+.portfolio_column_buttons {
+
+border-bottom: 1px dashed #999;
+
+}
+
+.portfolio_column_buttons ul li.first-pbutton a {
+
+border-left: 1px dashed #999;
+
+}
+
+.portfolio_column_buttons ul li a {
+
+color: #333;
+
+}
+
+.widget ul li a {
+	border-top: 1px solid #bbb;
+}
+
+#search {
+	border: 1px solid #999;
+}
+
+#search input[type=text] {
+	color: #444;
+}
+
+#social_icons {
+	border-top: 1px solid #999;
+}
+
+#thumbs {
+	background: url(../images/bg_adventure_light.png);
+	border-left: 5px solid rgba(0,0,0,0.1);
+	border-right: 5px solid rgba(0,0,0,0.1);
+}
+
+#slideshow_nav_controls {
+	background: rgba(0,0,0,0.2);
+	border-color: #999;
+}
+
+#floating_slideshow_nav {
+	background: url(../images/bg_adventure_light.png);
+	border: 5px solid rgba(0,0,0,0.1);
+}
+
+#floating_slideshow_nav_controls {
+	background: rgba(0,0,0,0.3);
+}
+
+#contact_form input[type=text] {
+	background: rgba(0,0,0,0.3);
+	color: #fff;
+	border: 1px solid #888;
+}
+
+#contact_form textarea {
+	background: rgba(0,0,0,0.3);
+	border: 1px solid #888;
+}
+
+#contact_form input[type=submit] {
+	background: #888;
+	background: rgba(0,0,0,0.3);
+	color: #fff;
+	border: 1px solid #888;
+}
+
+#contact_form #result_box {
+	background-color: #999;
+	background-image: url(../images/ajax-loader-light.gif);
+	border: 1px solid #888;
+	text-shadow: none;
+	color: #eee;
+}

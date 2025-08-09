@@ -1,0 +1,112 @@
+
+<html lang="en">
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+	<title>ZoomBox</title>
+    
+    <!--[if IE3]>
+    <script type="text/javascript" src="https://getfirebug.com/firebug-lite.js"></script>
+    <![endif]-->
+    
+    <link rel="stylesheet" type="text/css" href="style/style.css"/>
+    <link rel="stylesheet" type="text/css" href="style/wall/style.css"/>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.5.1.min.js"></script>
+	<script type="text/javascript" src="js/wall.js"></script>
+    
+	<link rel="stylesheet" href="style/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+	<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+    
+    
+</head>
+
+
+<body>
+<div class="preloader"></div>
+
+<div id="wall">
+<a href="img/1.jpg" rel="prettyPhoto" title="This image has a lightbox attached"><img src="img/1.jpg"/></a>
+<div>
+<img class="p-1-3-1-1" src="img/13.jpg"/>
+<a class="p-a2" href="img/14.jpg" rel="prettyPhoto"><img src="img/14.jpg"/></a>
+<a class="p-a3" href="img/15.jpg" rel="prettyPhoto"><img src="img/15.jpg"/></a>
+<a class="p-a1" href="img/16.jpg" rel="prettyPhoto"><img src="img/16.jpg"/></a>
+</div>
+
+<img title="This is a description set via the title attribute" src="img/3.jpg"/>
+<img src="img/2.jpg"/>
+<a href="img/5.jpg" rel="prettyPhoto"><img src="img/5.jpg"/></a>
+
+<div>
+<a class="p-1-3-1-1" href="img/17.jpg" rel="prettyPhoto"><img src="img/17.jpg"/></a>
+<img class="p-a4" src="img/18.jpg"/>
+<a class="p-a5" href="img/19.jpg" rel="prettyPhoto"><img src="img/19.jpg"/></a>
+</div>
+
+<a href="img/8.jpg" rel="prettyPhoto"><img title="Ratatouille" src="img/8.jpg"/></a>
+<a href="http://www.youtube.com/watch?v=A5fKfWMcD48" title="youtube video" rel="prettyPhoto"><img src="img/7.jpg"/></a>
+
+<div>
+<a class="p-1-3-1-1"  href="img/17.jpg" rel="prettyPhoto"><img src="img/17.jpg"/></a>
+<img class="p-a4" src="img/18.jpg"/>
+<img class="p-a5" src="img/19.jpg"/>
+</div>
+
+<a href="img/3.jpg" rel="prettyPhoto"><img title="Attend to safety lock" src="img/3.jpg"/></a>
+<a href="img/4.jpg" rel="prettyPhoto"><img src="img/4.jpg"/></a>
+
+<div>
+<a class="p11" href="img/9.jpg" rel="prettyPhoto"><img src="img/9.jpg"/></a>
+<img class="p12" src="img/10.jpg"/>
+<a class="p21"  href="img/11.jpg" rel="prettyPhoto"><img src="img/11.jpg"/></a>
+<a class="p22" href="img/12.jpg" rel="prettyPhoto"><img src="img/12.jpg"/></a>
+</div>
+
+<img src="img/4.jpg"/>
+<a href="img/8.jpg" rel="prettyPhoto"><img title="Ratatouille"  src="img/8.jpg"/></a>
+<a href="img/1.jpg" rel="prettyPhoto"><img title="Old Train" src="img/1.jpg"/></a>
+<a href="img/3.jpg" rel="prettyPhoto"><img title="Attend to safety lock"  src="img/3.jpg"/></a>
+<img src="img/2.jpg"/>
+
+<div>
+<img class="p-1-3-1-1" src="img/13.jpg"/>
+<a class="p-a2" href="img/s2.jpg" rel="prettyPhoto"><img src="img/14.jpg"/></a>
+<a class="p-a3" href="img/s3.jpg" rel="prettyPhoto"><img src="img/15.jpg"/></a>
+<a class="p-a1" href="img/s4.jpg" rel="prettyPhoto"><img src="img/16.jpg"/></a>
+</div>
+
+<a href="http://www.youtube.com/watch?v=A5fKfWMcD48" rel="prettyPhoto"><img src="img/7.jpg"/></a>
+
+<div>
+<a class="p11" href="img/9.jpg" rel="prettyPhoto"><img src="img/9.jpg" title="imaigne bla bla bla bla bla"/></a>
+<img class="p12" src="img/10.jpg"/>
+<a class="p21"  href="img/11.jpg" rel="prettyPhoto"><img src="img/11.jpg"/></a>
+<a class="p22" href="img/12.jpg" rel="prettyPhoto"><img src="img/12.jpg"/></a>
+</div>
+
+
+
+</div>
+
+
+</div>
+<div id="selector-example"><a href="index_normal.html">See example 2: Embed in layout.</a></div>
+<script>
+
+jQuery(window).load(function(){
+
+ $('#wall').wall({ 
+ 	settings_thumbs_per_row:5,
+	settings_width:0,
+	settings_height:0,
+	thumb_width:550,
+	thumb_height:300,
+	thumb_space:2,
+    settings_padding:20,
+	description_height:30
+ })
+ $("a[rel^='prettyPhoto']").prettyPhoto();
+})
+</script>
+</body>
+</html>
