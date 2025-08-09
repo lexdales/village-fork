@@ -1,12 +1,16 @@
 <?php
-class LPWT_Widget extends WP_Widget {
+if ( ! class_exists( 'PPPORT_Widget' ) ) {
+class PPPORT_Widget extends WP_Widget {
   public function __construct() {
     parent::__construct(
-      'lpwt_widget',
-      __('Latest Portfolio Posts','village'),
-      ['description'=>__('Shows latest portfolio items','village')]
+      'ppport_widget',
+      __('Popular Portfolio Posts','village'),
+      ['description'=>__('Shows popular portfolio items','village')]
     );
   }
+  // widget(), form(), update() ...
+}
+}
   public function update($new,$old){
     $inst = $old;
     $inst['title']   = isset($new['title']) ? sanitize_text_field($new['title']) : '';
